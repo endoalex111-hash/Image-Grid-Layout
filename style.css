@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    transition: .3s ease;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "p1 p2 p3"
+    "p1 p5 p3"
+    "p4 p5 p6";
+    gap: 20px;
+}
+
+img:hover {
+    transform: scale(.9);
+}
+
+.p1 {
+    width: 500px;
+    height: auto;
+    grid-area: p1;
+}
+
+.p2 {
+    width: 500px;
+    height: auto;
+    grid-area: p2;
+}
+
+.p3 {
+    width: 500px;
+    height: auto;
+    grid-area: p3;
+}
+
+.p4 {
+    width: 500px;
+    height: auto;
+    grid-area: p4;
+}
+
+.p5 {
+    width: 500px;
+    height: auto;
+    grid-area: p5;
+}
+
+.p6 {
+    width: 500px;
+    height: auto;
+    grid-area: p6;
+}
